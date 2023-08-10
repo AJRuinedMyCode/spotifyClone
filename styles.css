@@ -130,6 +130,13 @@ height: 90vh;
     font-weight: normal;
     font-size: small;
     color: var(--white);
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.chip:hover {
+    opacity: 1;
+    transition: all 0.3s;
 }
 
 .main-content {
@@ -150,7 +157,7 @@ height: 90vh;
 }
 
 .album-flex:hover {
-    background-color: #1a1a1a;
+    background-color: #1a1a1a !important;
     transition: all 0.3s;
     
 }
@@ -188,12 +195,15 @@ height: 90vh;
     z-index: 1000;
 }
 
+
 .cards-container {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
 
 }
+
+
 
 .cards {
     width: 150px;
@@ -202,6 +212,12 @@ height: 90vh;
     border-radius: 0.5rem;
     height: fit-content;
     margin: 0rem 0.75rem;
+    opacity: 0.8;
+}
+
+.cards:hover {
+    opacity: 1;
+        transition: all 0.3s;
 }
 
 .card-img {
