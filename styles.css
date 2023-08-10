@@ -1,4 +1,4 @@
-/* root variable allows color change across whole file as supposed to changing one at a time*/
+/* root variable stores color so changes can be made easier*/
 
 :root {
 --black: #000;
