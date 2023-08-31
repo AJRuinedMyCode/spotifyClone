@@ -328,3 +328,7 @@ align-items: center;
 .timeline-slider:focus::-webkit-slider-runnable-track {
   background: #ccc;
 }
+
+.active {
+    background-color: red;
+}
